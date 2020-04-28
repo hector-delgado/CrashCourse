@@ -1,0 +1,58 @@
+/*Main CSS Here*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,400&display=swap');
+
+/*What we´re selecting*/
+h1 {
+    /*How to style*/
+    color: crimson;
+    font-weight: 200;
+    text-transform: uppercase;
+    border-top: 5px solid;
+    font-size: 70px;
+}
+
+body {
+    background-color: black;
+    color: crimson;
+    font-family: "Montserrat";
+    font-weight: 200;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    margin: 30px auto 0;
+    padding: 20px 25px;
+    background-color:  black;
+    color: crimson;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid crimson;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    outline: none;
+}
+
+button:hover{
+    transition: 0.3s;
+    background-color: rgb(226, 76, 109);
+    color: black;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+}
